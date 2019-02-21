@@ -1,5 +1,5 @@
 import socket
-
+#importar socket
 
 class Red:
 
@@ -27,3 +27,4 @@ class Red:
             return reply
         except socket.error as e:
             return str(e)
+            
